@@ -1,15 +1,12 @@
 import React from "react";
-import Hero from "./hero";
-import Vision from "./vision";
-import Work from "./work";
 import Describe from "./describe";
+import Hero  from "./hero";
+
 
 function Homepage(){
     return(
         <div>
-          <Hero/>
-          <Vision/>
-          <Work/>
+           <Hero/>
           <Describe/>
         </div>
     )

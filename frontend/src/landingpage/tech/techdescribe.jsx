@@ -11,7 +11,7 @@ function ParentComponent() {
 
   return (
     <div>
-        <div className="row">
+        <div className="row cardskillsground">
   <div>
       <h2 className="head"  style={{textAlign:"center"}}>My Tech Skills</h2>
   </div>

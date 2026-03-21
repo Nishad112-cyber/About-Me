@@ -9,11 +9,11 @@
   background-color: azure;
   color: blue;
 }
-.vision{
-  background-color: blue;
-  color: white;
-  margin-left: 80px;
+.Homebotton .button-group {
+  display: flex;
+  gap: 20rem; 
 }
+
 .custom-margin{
   text-align: center;
 }
@@ -39,7 +39,9 @@
 }
 
 .homephoto {
-  width: 169%;
+   width: 100%;
+  height: 250px;
+  object-fit: cover;
   border-width: 2px 20px;
   border-style: solid;
   border-color: rgb(24, 11, 206);
@@ -62,7 +64,7 @@
 }
 
 .ground {
-  width: 590px;
+  width: 45rem;
   min-height: 350px;
   background: linear-gradient(145deg, #f5ecec, #e3d8d8);
   color: rgb(91, 91, 193);
@@ -91,11 +93,12 @@
   }
 }
 .tech-card {
-  width: 220px; 
+  width: 15rem; 
   padding: 15px;
   border-radius: 10px; 
   background-color: #f0f4f8; 
-  color: #1a1a1a; 
+  text-align: center;
+ color: #1a1a1a; 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
   cursor: pointer;
@@ -108,5 +111,119 @@
   transform: translateY(-5px); 
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
   background-color: #e0ebf7; 
+}
+
+.mini-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.mini-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.cardskillsground{
+  background-color: #cadae9;
+  height: 40rem;
+}
+
+
+
+/* Icon */
+.icon img {
+  width: 100%;
+  height: 15rem;
+  border-width: 4px 10px 2 10px;
+   border-style: solid;
+   border-color: blue;
+   
+   
+  
+}
+
+/* Text */
+.mini-card h3 {
+  margin-top: 15px;
+}
+
+.mini-card p {
+  font-size: 14px;
+  color: gray;
+}
+
+/* Tags */
+.tags span {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background: #e0e7ff;
+  font-size: 12px;
+}
+
+/* Buttons */
+.buttons {
+  margin-top: 15px;
+}
+
+.buttons a {
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.buttons a:first-child {
+  background: #4facfe;
+  color: white;
+}
+
+.buttons a:last-child {
+  background: #333;
+  color: white;
+}
+
+.SmallConainer{
+  background-color: #97a7d9;
+  border-radius: solid 5px black;
+  margin-top: 2rem;
+  
+}
+
+.indivisulMini{
+  margin-top: 2rem;
+  width: 30rem;
+  margin: 1rem 1rem;
+  margin-bottom: 2rem;
+}
+
+.LargeCard{
+  background-color: #e0e7ff;
+  margin-top: 2rem;
+   margin-bottom: 5rem;
+}
+
+.HeadingSpace{
+   margin-top: 2rem;
+   margin-bottom: 5rem;
+}
+
+.headCentre{
+  text-align: center;
+  color: #121213;
+  font-size: larger;
+  
+}
+.miniheading{
+  text-align: center;
+  color: #fdfdff;
+  font-size: larger;
 }
 

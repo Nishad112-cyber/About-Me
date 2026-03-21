@@ -17,14 +17,14 @@ function ProjectCard({
 }) {
   return (
     <div className="container  ">
-      <div className="row">
-        <div className="col-6 ms-5">
+      <div className="row ">
+        <div className="col md-6">
           <img src={imagepng}  
           className="homephoto"
            
           alt="" />
 
-          <div className="ground">
+          <div className="ground col md-6">
           <h5 className="ms-5 mt-2">{projectname}</h5>
           <p><b>{problem}</b></p>
           <p>{description}</p>

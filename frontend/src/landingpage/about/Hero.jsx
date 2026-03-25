@@ -1,5 +1,5 @@
 import React from "react";
-import DileepImg from "../../images/Dileepnishad.png";
+import DileepImg from "../../images/dileepnishad.png";
 import "../../index.css";
 function Hero() {
   return (

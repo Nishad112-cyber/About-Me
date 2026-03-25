@@ -67,7 +67,7 @@
   width: 45rem;
   min-height: 350px;
   background: linear-gradient(145deg, #f5ecec, #e3d8d8);
-  color: rgb(91, 91, 193);
+  color: rgb(50, 50, 133);
   padding: 25px;
   display: flex;
   flex-direction: column;
@@ -92,6 +92,12 @@
     min-height: 300px;
   }
 }
+
+.cardA {
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+
 .tech-card {
   width: 15rem; 
   padding: 15px;
@@ -227,3 +233,52 @@
   font-size: larger;
 }
 
+/* Container (row) */
+
+
+/* Container */
+.Coneectcss {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: nowrap; /* ek hi line me rakhega */
+}
+
+/* Card */
+.cardA {
+  flex: 0 0 360px;   /* fixed width */
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 15px;
+
+  /* Premium soft shadow */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+
+  /* Smooth animation */
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.cardA:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 35px rgba(79, 70, 229, 0.15);
+}
+
+/* Button */
+.cardA button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #5b54d8;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button hover */
+.cardA button:hover {
+  background: #4338ca;
+}

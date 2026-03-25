@@ -3,8 +3,8 @@ import React from "react";
 function Describe() {
   return (
   <div>
-    <div className="Description mt-5 " style={{backgroundColor:"#4c1d95",
-       color:"#e0d7f3"}} >
+    <div className="Description mt-5 " style={{backgroundColor:"#fcfaff",
+       color:"#28252d"}} >
       <h1 className="ms-3">About Us</h1>
       <p className="ms-3" >
         I am Dileep Nishad, a passionate Web Developer specializing in MERN

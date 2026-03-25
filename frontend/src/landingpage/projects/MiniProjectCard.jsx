@@ -1,6 +1,6 @@
 import React from "react";
 
-function MiniProjectCard({ title, desc, tech1, tech2, live, github, icon }) {
+function MiniProjectCard({ title, desc, tech1, tech2,  github, icon }) {
   return (
     <div className="mini-card">
 

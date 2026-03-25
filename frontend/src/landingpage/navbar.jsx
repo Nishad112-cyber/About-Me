@@ -27,20 +27,20 @@ function Navbar() {
               <Link className="nav-link" aria-current="page" to="/">Home</Link>
             </li>
 
+             <li className="nav-item">
+              <Link className="nav-link" to="/Projects">Projects</Link>
+            </li>
+
             <li className="nav-item">
               <Link className="nav-link" to="/About">About</Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/Services">Services</Link>
-            </li>
-
-            <li className="nav-item">
-              <Link className="nav-link" to="/Projects">Projects</Link>
-            </li>
-
-            <li className="nav-item">
               <Link className="nav-link" to="/Tech">Tech</Link>
+            </li>
+
+              <li className="nav-item">
+              <Link className="nav-link" to="/Services">Services</Link>
             </li>
 
             <li className="nav-item">

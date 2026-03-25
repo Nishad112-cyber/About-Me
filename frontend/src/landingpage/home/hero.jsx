@@ -2,6 +2,7 @@ import React from "react";
 import "../../index.css"
 import Icons from "./work";
 import { Link } from "react-router-dom";
+
 function Hero() {
   return (
     <div className="container mt-5">
@@ -29,12 +30,15 @@ function Hero() {
               <button className="btn btn-primary">View Projects</button>
              </Link>
 
-           <a href="/Dileep_Nishad_Resume.pdf" target="_blank" rel="noopener noreferrer">
-            <button className="btn btn-outline-dark">Download Resume</button>
-          </a>
+                 <a 
+                href="/Dileep_Nishad_Resume.pdf" 
+                download 
+                className="btn btn-outline-dark"
+               >
+             Download Resume
+             </a>
          </div>
              </div>    
-
 
           <div className="mt-4">
                <Icons />
@@ -44,7 +48,7 @@ function Hero() {
         {/* RIGHT SIDE */}
         <div className="col-md-6 text-center">
           <img
-            src="your-image.png"
+            src="portfoliyo.png"
             alt="profile"
             className="img-fluid hero-img"
           />

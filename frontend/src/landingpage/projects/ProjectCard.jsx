@@ -16,15 +16,15 @@ function ProjectCard({
   
 }) {
   return (
-    <div className="container  ">
-      <div className="row ">
-        <div className="col md-6">
+    <div className="container">
+      <div className="row g-4 align-items-center ">
+        <div className="col-md-6 col-12 w-100">
           <img src={imagepng}  
-          className="homephoto"
+          className="homephoto "
            
           alt="" />
 
-          <div className="ground col md-6">
+          <div className="ground  ">
           <h5 className="ms-5 mt-2">{projectname}</h5>
           <p><b>{problem}</b></p>
           <p>{description}</p>
@@ -39,13 +39,13 @@ function ProjectCard({
           
             
             <div>
-                <a href={livelink} target="_blank">
+                <a href={livelink} target="_blank" rel="noopener noreferrer">
                 <button className="btn btn-outline-primary me-2">
                 Live Demo
                 </button>
              </a>
 
-               <a href={githublink} target="_blank">
+               <a href={githublink} target="_blank" rel="noopener noreferrer">
                  <button className="btn btn-outline-secondary">
                  GitHub Code
                 </button>

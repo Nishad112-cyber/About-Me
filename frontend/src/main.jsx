@@ -2,6 +2,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter , Routes, Route  } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './index.css'
 import Navbar from './landingpage/navbar';
 import Footer from "./landingpage/footer";

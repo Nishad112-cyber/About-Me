@@ -5,9 +5,10 @@ import "../index.css";
 
 function Footer() {
     return ( 
-       <div className="row  footer ">
+      <div className="container-fluid footer">
+       <div className="row ">
 
-        <div className='col-4'>
+        <div className='col-lg-4 col-md-6 col-12'>
          <h2>Nivaro</h2>
          <ul>
          <li>
@@ -40,7 +41,7 @@ function Footer() {
          </ul>
         </div>
 
-       <div className='col-4 '>
+       <div className='col-lg-4 col-md-6 col-12 '>
         <ul>
            
              <h2>Categories</h2>
@@ -56,7 +57,7 @@ function Footer() {
           
         </div>
 
-          <div className='col-4 '>
+          <div className='col-lg-4 col-md-6 col-12 '>
          <h2>Important Links</h2>
          
             <ul className="navbar-nav ms-auto">
@@ -90,6 +91,7 @@ function Footer() {
         </div>
 
 
+       </div>
        </div>
     );
 }

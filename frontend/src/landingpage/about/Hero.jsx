@@ -3,18 +3,18 @@ import DileepImg from "../../images/dileepnishad.png";
 import "../../index.css";
 function Hero() {
   return (
-    <div>
+    <div className="hero-container">
       <div className="image-container">
-        <img src={DileepImg} className="photo" alt="DileepImage" />
+        <img src={DileepImg} className="photo img-fluid" alt="DileepImage" />
       </div>
-      <div className="title">
+      <div className="content">
         <h3> Dileep Nishad</h3>
         <h5>Founder & CEO Nivaro</h5>
-          <h1 className="mt-5">About Founder</h1>
+          <h1 className="mt-4">About Founder</h1>
       </div>
-      <div className="Info">
       
-        <p className="ms-5 mt-5">
+      
+        <p >
           I am Dileep Nishad, a passionate MERN Stack Developer currently
           pursuing B.Tech in Information Technology. I enjoy building modern,
           responsive, and user-friendly web applications using technologies like
@@ -25,7 +25,7 @@ function Hero() {
           and grow as a professional developer.
         </p>
       </div>
-    </div>
+   
   );
 }
 

@@ -2,12 +2,12 @@ import React from "react";
 
 function MiniProjectCard({ title, desc, tech1, tech2,  github, icon }) {
   return (
-    <div className="mini-card">
+    <div className="mini-card ">
 
       <div className="top-design"></div>
 
       <div className="icon">
-        <img src={icon} alt="project" />
+        <img src={icon} alt="project" className="img-fluid" />
       </div>
 
       <h3>{title}</h3>
@@ -20,7 +20,7 @@ function MiniProjectCard({ title, desc, tech1, tech2,  github, icon }) {
 
       <div className="buttons">
        
-        <a href={github} target="_blank">GitHub</a>
+       <a href={github} target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
 
     </div>

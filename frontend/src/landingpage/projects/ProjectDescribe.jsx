@@ -7,14 +7,14 @@ import MiniProjectCard from "./MiniProjectCard";
 import simonimage from "../../images/simon-image.png"
 import weather from "../../images/Weather-app.png"
 import camera from "../../images/cameraimage.png"
-import { Button } from "bootstrap";
+
 function ProjectDescribe(){
     return(
       <div>
        <div className="HeadingSpace">
         <div className="headCentre"><h3>Featured Full-Stack MERN Projects</h3></div>
         <div className="row LargeCard mt-5" >
-          <div className="col md-6">
+          <div className="col-lg-6 col-md-12">
             <ProjectCard
           imagepng={ZerodhaPage}
           projectname="Zerodha-Clone"
@@ -27,7 +27,7 @@ function ProjectDescribe(){
         />
         </div>
 
-        <div className="col-6">
+        <div className="col-lg-6 col-md-12">
             <ProjectCard
           imagepng={wanderpage}
           projectname="WanderLust"
@@ -44,8 +44,8 @@ function ProjectDescribe(){
       </div>
     </div>
          
-         <div className="row LargeCard mt-5" >
-          <div className="col-6">
+         <div className="row LargeCard mt-5 g-4" >
+          <div className="col-lg-6 col-md-12">
             <ProjectCard
           imagepng={dashboard}
           projectname="Zerodha-Dshboard"
@@ -58,7 +58,7 @@ function ProjectDescribe(){
         />
         </div>
 
-        <div className="col-6">
+        <div className="col-lg-6 col-md-12">
             <ProjectCard
           imagepng={ZerodhaPage}
           projectname="Zerodha-Clone"
@@ -73,7 +73,7 @@ function ProjectDescribe(){
            
            <div className="row SmallConainer">
             <div className="miniheading"><h1>Mini Frontend Projects</h1></div>
-            <div className="indivisulMini col-4 ">
+            <div className="indivisulMini col-lg-4 col-md-6 col-12 ">
       <MiniProjectCard
             title="Simon Game"
             desc="Memory game built using JavaScript."
@@ -97,7 +97,7 @@ function ProjectDescribe(){
         />          
          </div>
 
-         <div className="indivisulMini col-4 ">
+         <div className="indivisulMini col-lg-4 col-md-6 col-12 ">
            <MiniProjectCard
             title="Cemera Home"
             desc="Cemera homepage show by only html"

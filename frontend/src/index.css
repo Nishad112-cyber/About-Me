@@ -164,10 +164,18 @@ aboutPra {
 }
 .cardskillsground{
   background-color: #cadae9;
-  height: 40rem;
+  width: 100%; 
+   max-width: 95rem;
+   margin: 0px 0px;
+ min-height: 40rem;
+ height: auto;
 }
 
-
+@media (max-width: 768px) {
+  .cardskillsground {
+    padding: 20px 10px;  
+  }
+}
 
 
 .icon img {

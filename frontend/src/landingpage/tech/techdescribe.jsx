@@ -10,24 +10,24 @@ function ParentComponent() {
 
 
   return (
-    <div>
+    <div className="container-fluid my-5">
         <div className="row cardskillsground">
   <div>
       <h2 className="head"  style={{textAlign:"center"}}>My Tech Skills</h2>
   </div>
-      <div className="col-3">
+      <div className="col-12 col-md-6 col-lg-3">
       <TechCards heading="Frontend" paragraphs={frontendSkills} />
       </div>
 
-      <div className="col-3">
+      <div className="col-12 col-md-6 col-lg-3">
        <TechCards heading="Backend" paragraphs={BackendSkills} />
        </div>
 
-        <div className="col-3">
+        <div className="col-12 col-md-6 col-lg-3">
       <TechCards heading="Tools" paragraphs={toolsSkills} />
       </div>
 
-      <div className="col-3">
+      <div className="col-12 col-md-6 col-lg-3">
        <TechCards heading="Languages" paragraphs={languages} />
        </div>
 

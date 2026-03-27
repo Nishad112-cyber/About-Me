@@ -35,8 +35,32 @@
   display: flex;
   justify-content: center;  
 }
-.title{
- margin-left: 700px;
+.title {
+  text-align: center;       /* text center */
+  margin: 20px 0;           /* upar-niche spacing */
+  font-size: 2rem;          /* adjust heading size */
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}
+
+aboutPra {
+  width: 90%;        
+  max-width: 1150px; 
+  margin: 1 auto;   
+  padding: 1 20px;   
+  line-height: 1.6;
+}
+
+
+@media (max-width: 768px) {
+  .aboutPra {
+    width: 95%;      
+    padding: 0 15px;
+  }
 }
 
 .homephoto {
@@ -145,7 +169,7 @@
 
 
 
-/* Icon */
+
 .icon img {
   width: 100%;
   height: 15rem;
@@ -157,7 +181,7 @@
   
 }
 
-/* Text */
+
 .mini-card h3 {
   margin-top: 15px;
 }
@@ -167,7 +191,7 @@
   color: gray;
 }
 
-/* Tags */
+
 .tags span {
   display: inline-block;
   margin: 5px;
@@ -177,7 +201,7 @@
   font-size: 12px;
 }
 
-/* Buttons */
+
 .buttons {
   margin-top: 15px;
 }
@@ -237,40 +261,51 @@
   font-size: larger;
 }
 
-/* Container (row) */
 
 
-/* Container */
+
+
 .Coneectcss {
-  display: flex;
-  justify-content: space-between;
-  gap: 2rem;
-  padding: 2rem;
-  flex-wrap: nowrap; /* ek hi line me rakhega */
+  display: flex;         
+  flex-wrap: wrap;      
+  justify-content: center; 
+   gap: 20px; 
+  margin-top: 20px;
+   padding: 0 20px;
 }
 
-/* Card */
-.cardA {
-  flex: 0 0 360px;   /* fixed width */
+
+@media (max-width: 768px) {
+  .Coneectcss {
+    flex-direction: column; 
+    gap: 15px;             
+    align-items: center;
+  }
+}
+
+
+.cardA1 {
+   flex: 1 1 300px;  
+   max-width: 360px;
   background: #ffffff;
   border-radius: 16px;
   padding: 15px;
 
-  /* Premium soft shadow */
+ 
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
 
-  /* Smooth animation */
+  
   transition: all 0.3s ease;
 }
 
-/* Hover effect */
-.cardA:hover {
+
+.cardA1:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 35px rgba(79, 70, 229, 0.15);
 }
 
-/* Button */
-.cardA button {
+
+.cardA1 button {
   margin-top: 15px;
   width: 100%;
   padding: 10px;
@@ -282,7 +317,7 @@
   transition: 0.3s;
 }
 
-/* Button hover */
-.cardA button:hover {
+
+.cardA1 button:hover {
   background: #4338ca;
 }

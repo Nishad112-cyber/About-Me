@@ -7,13 +7,13 @@ function Hero() {
       <div className="image-container">
         <img src={DileepImg} className="photo img-fluid" alt="DileepImage" />
       </div>
-      <div className="content">
+      <div className="title">
         <h3> Dileep Nishad</h3>
         <h5>Founder & CEO Nivaro</h5>
           <h1 className="mt-4">About Founder</h1>
       </div>
       
-      
+      <div className="aboutPra">
         <p >
           I am Dileep Nishad, a passionate MERN Stack Developer currently
           pursuing B.Tech in Information Technology. I enjoy building modern,
@@ -24,6 +24,7 @@ function Hero() {
           latest technologies. My goal is to build impactful digital solutions
           and grow as a professional developer.
         </p>
+        </div>
       </div>
    
   );

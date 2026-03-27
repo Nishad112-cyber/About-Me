@@ -4,7 +4,7 @@ function ConnectCard({
   logopng,
   heading,
   clickid,
-  type   // 🔥 new prop
+  type   
 }) {
 
   let link = "";
@@ -19,11 +19,11 @@ function ConnectCard({
     link = `https://wa.me/${clickid}`;
   } 
   else {
-    link = clickid; // fallback (agar koi aur link ho)
+    link = clickid; 
   }
 
   return (
-    <div className="cardA">
+    <div className="cardA1">
       
       <div style={{ 
         display: "flex", 

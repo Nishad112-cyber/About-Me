@@ -7,6 +7,7 @@ import MiniProjectCard from "./MiniProjectCard";
 import simonimage from "../../images/simon-image.png"
 import weather from "../../images/Weather-app.png"
 import camera from "../../images/cameraimage.png"
+import zoomapp from "../../images/Zoom-App.png"
 
 function ProjectDescribe(){
     return(
@@ -60,15 +61,20 @@ function ProjectDescribe(){
 
         <div className="col-lg-6 col-md-12">
             <ProjectCard
-          imagepng={ZerodhaPage}
-          projectname="Zerodha-Clone"
+          imagepng={zoomapp}
+          projectname="Zoom-App(WebRTC)"
           problem="Description"
-          description="A clean and responsive UI clone of Zerodha’s trading dashboard."
+         description="A real-time video conferencing web app that allows users to join meeting rooms and communicate via video and audio."
           techstack="Tech-Stack"
-          livelink="https://zerodha-clone-5-jddr.onrender.com"
-          githublink="https://github.com/Nishad112-cyber"
+          language="Node.js, Express.js, MongoDB, React.js, WebRTC, Socket.IO, JavaScript, JWT Authentication"
+          livelink="https://zoomapp-4webrtc.onrender.com"
+          githublink="https://github.com/Nishad112-cyber/ZoomApp-WebRTC"
         />
         </div>
+
+
+
+        
       </div>
            
            <div className="row SmallConainer">
